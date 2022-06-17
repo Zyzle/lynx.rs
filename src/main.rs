@@ -1,6 +1,6 @@
 use std::collections::HashMap;
 
-use rocket::{serde::{json::Json, Deserialize, Serialize}};
+use rocket::serde::{json::Json, Deserialize, Serialize};
 
 #[macro_use]
 extern crate rocket;
