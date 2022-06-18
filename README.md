@@ -12,6 +12,9 @@ The app will automatically link through to the GitHub API endpoint and will need
  * CLIENT_SECRET
     The secret for the GitHub app
 
+ * GITHUB_BASE
+    The github access_token api url `https://github.com/login/oauth/access_token`
+
 ### Similar projects 
 
 [prose/gatekeeper](https://github.com/prose/gatekeeper) project performs a similar function and is written in JS, although appears to have fallen out of active development.
