@@ -74,7 +74,7 @@ async fn token(code: String) -> Result<Json<GhResponse>, NotFound<String>> {
     let access_response = get_access(&code).await;
 
     match access_response {
-        Ok(resp) => (Ok(Json(resp))),
+        Ok(resp) => Ok(Json(resp)),
         Err(_) => Err(NotFound("Not Found".to_string())),
     }
 }
